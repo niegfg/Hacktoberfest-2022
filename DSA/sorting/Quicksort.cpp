@@ -50,7 +50,7 @@ int main()
     }
     cout<<endl;
     s.Quicksort(arr,0,n-1);
-    cout<<"THE SORTED ARRAY IS \n";
+    cout<<"SORTED ARRAY IS \n";
     for(int i=0;i<8;i++)
     {
         cout<<arr[i]<<'\t';
