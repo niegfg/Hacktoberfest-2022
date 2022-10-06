@@ -1,0 +1,362 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+
+}
+/* Main header heading starts here */
+.main-header-heading {
+    margin-left: 180px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    background-color: #FFC017;
+    width: 100%;
+}
+
+.below-header {
+    margin-top: 88px;
+    margin-left: 100px;
+    height: 413px;
+}
+
+/* Stay curious */
+
+.Stay-cur {
+    font-size: 106px;
+}
+
+.M {
+    margin-top: 58px;
+}
+
+/* Main headerbox */
+.headerbox {
+    background-color: #FFC017;
+    border-bottom: 1px solid black;
+    height: 630px;
+
+}
+
+
+
+
+/* This property is adjusting the header elements */
+
+.clearfix {
+    height: 80px;
+    width: 100%;
+}
+/* Adjusting the font size of the para */
+p {
+    font-size: 31px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+}
+/* ********* */
+a {
+    text-decoration: none;
+    margin: 55px 10px;
+}
+                                            /* Anchor tag properties....link,visted,hover */
+a:link,
+a:visited {                                                         
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.getstarted {
+    margin-top: 19px;
+    border-radius: 133px;
+    padding: 9px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+}
+
+.getstarted:hover {
+    cursor: pointer;
+}
+/* ************* */
+
+
+.startreading {
+    font-size: 20px;
+    padding: 10px 59px;
+    border-radius: 140px;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+/* .navbar{
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    right: 0;
+} */
+.navbar1 {
+    background-color: #FFC017;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 80px;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+
+.hottopics {
+    /* border: 1px solid black; */
+    margin: 0px 144px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 36px 84px;
+}
+
+.number {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    color: rgb(229, 229, 229);
+    font-weight: bolder;
+    position: relative;
+    top: 34px;
+    right: 48px;
+
+}
+
+.date {
+    font-weight: 65;
+}
+
+.topic {
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Styling of all the Numbers from 01 to 06 */
+.number1 {
+    position: absolute;
+    left: 99px;
+    top: 586px;
+}
+
+.number2 {
+    position: absolute;
+    left: 542px;
+    top: 586px;
+}
+
+.number3 {
+    position: absolute;
+    left: 989px;
+    top: 586px;
+}
+
+.number4 {
+    position: absolute;
+    left: 99px;
+    top: 735px;
+}
+
+.number5 {
+    position: absolute;
+    left: 542px;
+    top: 735px;
+}
+
+.number6 {
+    position: absolute;
+    left: 989px;
+    top: 736px;
+}
+
+.main {
+    margin-left: 35 px;
+}
+
+.last {
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+.info {
+    display: grid;
+    gap: 70px 0px;
+}
+
+.name {
+    margin-left: 1px;
+}
+
+.title {
+    margin-top: 8px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+}
+
+.description {
+    margin-top: 7px;
+    /* font-family: 'Nanum Gothic', sans-serif; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: -0.4px;
+    color: gray;
+    font-size: 20px;
+}
+
+.time {
+    margin-top: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: gray;
+    font-size: small;
+}
+
+.infoimg {
+    position: relative;
+    left: 44px;
+    top: 5px;
+    width: 250px;
+
+}
+
+
+.trendinglogo-sub {
+    height: 23px;
+
+    border-radius: 20px;
+    position: relative;
+    top: 5px;
+    right: 7px;
+}
+
+.infologo {
+    height: 21px;
+
+    border-radius: 20px;
+    position: relative;
+    top: 5px;
+    right: 7px;
+}
+
+.grid {
+    margin-top: 22px;
+}
+
+.btnn {
+    font-size: 15px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #e2d9d9;
+    padding-right: 13px;
+    padding-left: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* line-height: 20px; */
+    margin-right: 5px;
+    margin-top: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+.baskaro {
+    margin-top: 35px;
+    font-size: 16px;
+    color: grey;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.lastline {
+    margin-top: 40px;
+    width: 349px;
+    color: #992525;
+    background-color: #e2d9d9;
+    border: 0.5px solid rgb(228, 223, 233);
+}
+
+.timebutton {
+    margin-left: 33px;
+    border-radius: 13px;
+    padding: 3px 9px;
+    background-color: rgb(242, 240, 240);
+    border: none;
+    font-size: 15px;
+}
+
+.timebutton:hover {
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+.info1,
+.info2,
+.info3,
+.info4,
+.info5,
+.info6,
+.info7 {
+    height: 214px;
+}
+
+
+
+.final{
+    /* margin-right: -8px; */
+    margin-top: 98px;
+    margin-left: 180px;
+    /* float: right; */
+    width: 490px;
+    /* right: 0px; */
+    position: sticky;
+    top: 130px;
+}
+.star {
+    position: relative;
+    left: 214px;
+    height: 40px;
+    bottom: 29px;
+}
+
+.star1 {
+    position: relative;
+    left: 136px;
+    height: 40px;
+    bottom: 29px;
+}
+
+.lastndfooter{
+    display: flex;
+}
+
+
+.bookmark {
+    position: relative;
+    left: 470px;
+    bottom: 37px;
+    height: 34px;
+    cursor: pointer;
+}
+.bookmark1 {
+    position: relative;
+    left: 512px;
+    bottom: 37px;
+    height: 34px;
+    cursor: pointer;
+}
