@@ -1,0 +1,41 @@
+Selection Sort:
+
+It is one of the most basic sorting algorithms just like Bubble Sort and Insertion Sort.
+
+Logic:
+
+1.We start looping from the initial element of the array
+
+2.We take the first element to be the minimum element of the array,
+and check if there is a smaller element in the reamaining part of the array.(this is the logic for sorting in ascending order, for 
+descending order, we take take the first element to be largest and try to find a larger element).
+
+3.If we find a smaller element, we then replace the first element with the initial element
+
+4.As we loop through, we see that the array starts getting sorted from the beginning( sorted elements get accumulated to the left),
+and unsorted elements are left behind.
+
+5.At last we will have no unsorted elements, i.e sorted part of the array is equivalent to the whole array.
+
+Note:
+ The loop only has to run n-1 times, the last element will be the largest or smallest(for acending or descending) and already sorted.
+
+
+Complexity:
+
+
+Time Complexity--
+Best Case  Omega(n^2)
+Average    Theta(n^2)
+Worst      O(n^2)
+
+
+Space Complexity--
+O(1)
+
+
+Learn more:
+
+https://www.geeksforgeeks.org/selection-sort/
+
+https://www.youtube.com/watch?v=g-PGLbMth_g

@@ -1,0 +1,24 @@
+Merge Sort is a sorting algorithm based on Divide and Conquer.It uses recursive approach to meet its requirements.
+
+ Raw Logic:
+1. It goes on dividing the array into 2 parts, until the array is undivisble,i.e only a single element is left for each divided part.
+(This generates a tree like structure, hence recursive approach).
+
+2.Once divided,it goes on merging adjacent divided parts as well as sorting them simultaneously.The Merging goes on until the whole array 
+is received which at last is sorted.
+
+3.This algorithm has two main tasks:
+
+i. Dividing array into halves
+ii. Merging adjacent halves and simultaneosly sorting them.
+
+
+Complexity:
+
+Time Complexity--
+Best case       Omega(nlogn)
+Average Case    Theta(nlogn)
+Worst Case           O(nlogn)
+
+Space Complexity--
+O(n)
